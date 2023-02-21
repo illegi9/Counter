@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100vh;
+}

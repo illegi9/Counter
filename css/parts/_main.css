@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.main--title {
+
+}
+
+.main--counter {
+    display: inline-block;
+    margin: 20px 0px 25px 30px;
+    text-align: center;
+}
+
+.main--counter::before {
+    content: 'Счет:';
+}
